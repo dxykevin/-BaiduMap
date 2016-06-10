@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		312BF1721D0A59450030CED5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 312BF1711D0A59450030CED5 /* main.m */; };
+		312BF1751D0A59450030CED5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 312BF1741D0A59450030CED5 /* AppDelegate.m */; };
+		312BF1781D0A59450030CED5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 312BF1771D0A59450030CED5 /* ViewController.m */; };
+		312BF17B1D0A59450030CED5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 312BF1791D0A59450030CED5 /* Main.storyboard */; };
+		312BF17D1D0A59450030CED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 312BF17C1D0A59450030CED5 /* Assets.xcassets */; };
+		312BF1801D0A59450030CED5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 312BF17E1D0A59450030CED5 /* LaunchScreen.storyboard */; };
+		312BF18B1D0A59450030CED5 /* _____BaiduMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 312BF18A1D0A59450030CED5 /* _____BaiduMapTests.m */; };
+		312BF1961D0A59450030CED5 /* _____BaiduMapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 312BF1951D0A59450030CED5 /* _____BaiduMapUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		312BF1871D0A59450030CED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 312BF1651D0A59450030CED5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 312BF16C1D0A59450030CED5;
+			remoteInfo = "添加覆盖物BaiduMap";
+		};
+		312BF1921D0A59450030CED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 312BF1651D0A59450030CED5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 312BF16C1D0A59450030CED5;
+			remoteInfo = "添加覆盖物BaiduMap";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		312BF16D1D0A59450030CED5 /* 添加覆盖物BaiduMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "添加覆盖物BaiduMap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		312BF1711D0A59450030CED5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		312BF1731D0A59450030CED5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		312BF1741D0A59450030CED5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		312BF1761D0A59450030CED5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		312BF1771D0A59450030CED5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		312BF17A1D0A59450030CED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		312BF17C1D0A59450030CED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		312BF17F1D0A59450030CED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		312BF1811D0A59450030CED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		312BF1861D0A59450030CED5 /* 添加覆盖物BaiduMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "添加覆盖物BaiduMapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		312BF18A1D0A59450030CED5 /* _____BaiduMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____BaiduMapTests.m"; sourceTree = "<group>"; };
+		312BF18C1D0A59450030CED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		312BF1911D0A59450030CED5 /* 添加覆盖物BaiduMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "添加覆盖物BaiduMapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		312BF1951D0A59450030CED5 /* _____BaiduMapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____BaiduMapUITests.m"; sourceTree = "<group>"; };
+		312BF1971D0A59450030CED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		312BF16A1D0A59450030CED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312BF1831D0A59450030CED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312BF18E1D0A59450030CED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		312BF1641D0A59450030CED5 = {
+			isa = PBXGroup;
+			children = (
+				312BF16F1D0A59450030CED5 /* 添加覆盖物BaiduMap */,
+				312BF1891D0A59450030CED5 /* 添加覆盖物BaiduMapTests */,
+				312BF1941D0A59450030CED5 /* 添加覆盖物BaiduMapUITests */,
+				312BF16E1D0A59450030CED5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		312BF16E1D0A59450030CED5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				312BF16D1D0A59450030CED5 /* 添加覆盖物BaiduMap.app */,
+				312BF1861D0A59450030CED5 /* 添加覆盖物BaiduMapTests.xctest */,
+				312BF1911D0A59450030CED5 /* 添加覆盖物BaiduMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		312BF16F1D0A59450030CED5 /* 添加覆盖物BaiduMap */ = {
+			isa = PBXGroup;
+			children = (
+				312BF1731D0A59450030CED5 /* AppDelegate.h */,
+				312BF1741D0A59450030CED5 /* AppDelegate.m */,
+				312BF1761D0A59450030CED5 /* ViewController.h */,
+				312BF1771D0A59450030CED5 /* ViewController.m */,
+				312BF1791D0A59450030CED5 /* Main.storyboard */,
+				312BF17C1D0A59450030CED5 /* Assets.xcassets */,
+				312BF17E1D0A59450030CED5 /* LaunchScreen.storyboard */,
+				312BF1811D0A59450030CED5 /* Info.plist */,
+				312BF1701D0A59450030CED5 /* Supporting Files */,
+			);
+			path = "添加覆盖物BaiduMap";
+			sourceTree = "<group>";
+		};
+		312BF1701D0A59450030CED5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				312BF1711D0A59450030CED5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		312BF1891D0A59450030CED5 /* 添加覆盖物BaiduMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				312BF18A1D0A59450030CED5 /* _____BaiduMapTests.m */,
+				312BF18C1D0A59450030CED5 /* Info.plist */,
+			);
+			path = "添加覆盖物BaiduMapTests";
+			sourceTree = "<group>";
+		};
+		312BF1941D0A59450030CED5 /* 添加覆盖物BaiduMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				312BF1951D0A59450030CED5 /* _____BaiduMapUITests.m */,
+				312BF1971D0A59450030CED5 /* Info.plist */,
+			);
+			path = "添加覆盖物BaiduMapUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		312BF16C1D0A59450030CED5 /* 添加覆盖物BaiduMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 312BF19A1D0A59450030CED5 /* Build configuration list for PBXNativeTarget "添加覆盖物BaiduMap" */;
+			buildPhases = (
+				312BF1691D0A59450030CED5 /* Sources */,
+				312BF16A1D0A59450030CED5 /* Frameworks */,
+				312BF16B1D0A59450030CED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "添加覆盖物BaiduMap";
+			productName = "添加覆盖物BaiduMap";
+			productReference = 312BF16D1D0A59450030CED5 /* 添加覆盖物BaiduMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		312BF1851D0A59450030CED5 /* 添加覆盖物BaiduMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 312BF19D1D0A59450030CED5 /* Build configuration list for PBXNativeTarget "添加覆盖物BaiduMapTests" */;
+			buildPhases = (
+				312BF1821D0A59450030CED5 /* Sources */,
+				312BF1831D0A59450030CED5 /* Frameworks */,
+				312BF1841D0A59450030CED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				312BF1881D0A59450030CED5 /* PBXTargetDependency */,
+			);
+			name = "添加覆盖物BaiduMapTests";
+			productName = "添加覆盖物BaiduMapTests";
+			productReference = 312BF1861D0A59450030CED5 /* 添加覆盖物BaiduMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		312BF1901D0A59450030CED5 /* 添加覆盖物BaiduMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 312BF1A01D0A59450030CED5 /* Build configuration list for PBXNativeTarget "添加覆盖物BaiduMapUITests" */;
+			buildPhases = (
+				312BF18D1D0A59450030CED5 /* Sources */,
+				312BF18E1D0A59450030CED5 /* Frameworks */,
+				312BF18F1D0A59450030CED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				312BF1931D0A59450030CED5 /* PBXTargetDependency */,
+			);
+			name = "添加覆盖物BaiduMapUITests";
+			productName = "添加覆盖物BaiduMapUITests";
+			productReference = 312BF1911D0A59450030CED5 /* 添加覆盖物BaiduMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		312BF1651D0A59450030CED5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Kevin;
+				TargetAttributes = {
+					312BF16C1D0A59450030CED5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					312BF1851D0A59450030CED5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 312BF16C1D0A59450030CED5;
+					};
+					312BF1901D0A59450030CED5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 312BF16C1D0A59450030CED5;
+					};
+				};
+			};
+			buildConfigurationList = 312BF1681D0A59450030CED5 /* Build configuration list for PBXProject "添加覆盖物BaiduMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 312BF1641D0A59450030CED5;
+			productRefGroup = 312BF16E1D0A59450030CED5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				312BF16C1D0A59450030CED5 /* 添加覆盖物BaiduMap */,
+				312BF1851D0A59450030CED5 /* 添加覆盖物BaiduMapTests */,
+				312BF1901D0A59450030CED5 /* 添加覆盖物BaiduMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		312BF16B1D0A59450030CED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312BF1801D0A59450030CED5 /* LaunchScreen.storyboard in Resources */,
+				312BF17D1D0A59450030CED5 /* Assets.xcassets in Resources */,
+				312BF17B1D0A59450030CED5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312BF1841D0A59450030CED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312BF18F1D0A59450030CED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		312BF1691D0A59450030CED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312BF1781D0A59450030CED5 /* ViewController.m in Sources */,
+				312BF1751D0A59450030CED5 /* AppDelegate.m in Sources */,
+				312BF1721D0A59450030CED5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312BF1821D0A59450030CED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312BF18B1D0A59450030CED5 /* _____BaiduMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312BF18D1D0A59450030CED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312BF1961D0A59450030CED5 /* _____BaiduMapUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		312BF1881D0A59450030CED5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 312BF16C1D0A59450030CED5 /* 添加覆盖物BaiduMap */;
+			targetProxy = 312BF1871D0A59450030CED5 /* PBXContainerItemProxy */;
+		};
+		312BF1931D0A59450030CED5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 312BF16C1D0A59450030CED5 /* 添加覆盖物BaiduMap */;
+			targetProxy = 312BF1921D0A59450030CED5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		312BF1791D0A59450030CED5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				312BF17A1D0A59450030CED5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		312BF17E1D0A59450030CED5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				312BF17F1D0A59450030CED5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		312BF1981D0A59450030CED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		312BF1991D0A59450030CED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		312BF19B1D0A59450030CED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "添加覆盖物BaiduMap/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dxykevin.www.-----BaiduMap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		312BF19C1D0A59450030CED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "添加覆盖物BaiduMap/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dxykevin.www.-----BaiduMap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		312BF19E1D0A59450030CED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "添加覆盖物BaiduMapTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dxykevin.www.-----BaiduMapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/添加覆盖物BaiduMap.app/添加覆盖物BaiduMap";
+			};
+			name = Debug;
+		};
+		312BF19F1D0A59450030CED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "添加覆盖物BaiduMapTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dxykevin.www.-----BaiduMapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/添加覆盖物BaiduMap.app/添加覆盖物BaiduMap";
+			};
+			name = Release;
+		};
+		312BF1A11D0A59450030CED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "添加覆盖物BaiduMapUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dxykevin.www.-----BaiduMapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "添加覆盖物BaiduMap";
+			};
+			name = Debug;
+		};
+		312BF1A21D0A59450030CED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "添加覆盖物BaiduMapUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dxykevin.www.-----BaiduMapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "添加覆盖物BaiduMap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		312BF1681D0A59450030CED5 /* Build configuration list for PBXProject "添加覆盖物BaiduMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312BF1981D0A59450030CED5 /* Debug */,
+				312BF1991D0A59450030CED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		312BF19A1D0A59450030CED5 /* Build configuration list for PBXNativeTarget "添加覆盖物BaiduMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312BF19B1D0A59450030CED5 /* Debug */,
+				312BF19C1D0A59450030CED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		312BF19D1D0A59450030CED5 /* Build configuration list for PBXNativeTarget "添加覆盖物BaiduMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312BF19E1D0A59450030CED5 /* Debug */,
+				312BF19F1D0A59450030CED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		312BF1A01D0A59450030CED5 /* Build configuration list for PBXNativeTarget "添加覆盖物BaiduMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312BF1A11D0A59450030CED5 /* Debug */,
+				312BF1A21D0A59450030CED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 312BF1651D0A59450030CED5 /* Project object */;
+}
