@@ -1,0 +1,13 @@
+PODS:
+  - BaiduMapKit (2.10.2)
+  - JMRoundedCorner (1.1.1)
+
+DEPENDENCIES:
+  - BaiduMapKit
+  - JMRoundedCorner
+
+SPEC CHECKSUMS:
+  BaiduMapKit: b1706a062597c70ec62a0cca93212cba1d3017e1
+  JMRoundedCorner: d0607ba02d1390a8f1ef683524ae7e01f40238b6
+
+COCOAPODS: 0.39.0
